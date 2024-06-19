@@ -2,9 +2,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const avatarElement = document.querySelector('.profile-avatar');
     const nameElement = document.querySelector('.profile-name');
     const usernameElement = document.querySelector('.profile-username');
-    const reposElement = document.querySelector('.numbers-repos');
-    const followersElement = document.querySelector('.numbers-followers');
-    const followingsElement = document.querySelector('.numbers-followings');
+    const reposElement = document.querySelector('.repos');
+    const followersElement = document.querySelector('.followers');
+    const followingsElement = document.querySelector('.followings');
     const linksElement = document.querySelector('.profile-link');
 
     fetch('https://api.github.com/users/leonardo-christ')
